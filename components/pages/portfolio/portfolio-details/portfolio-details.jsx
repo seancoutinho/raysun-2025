@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PortfolioDetailsMain = ({singleData}) => {
+const PortfolioDetailsMain = ({ singleData }) => {
     return (
         <div className="portfolio__details dark__image section-padding">
             <div className="container">
@@ -11,19 +11,15 @@ const PortfolioDetailsMain = ({singleData}) => {
                             <div className="portfolio__details-meta">
                                 <div className="portfolio__details-meta-item">
                                     <span>Date :</span>
-                                    <h6>21 March, 2024</h6>
+                                    <h6>{singleData?.date}</h6>
                                 </div>
                                 <div className="portfolio__details-meta-item">
                                     <span>Category :</span>
-                                    <h6>{singleData.title}</h6>
-                                </div>
-                                <div className="portfolio__details-meta-item">
-                                    <span>Customer :</span>
-                                    <h6>ThemeOri</h6>
+                                    <h6>{singleData?.category}</h6>
                                 </div>
                                 <div className="portfolio__details-meta-item">
                                     <span>Locations :</span>
-                                    <h6>Preston Rd. Inglewood,</h6>
+                                    <h6>{singleData?.location}</h6>
                                 </div>
                             </div>
                         </div>
@@ -31,31 +27,29 @@ const PortfolioDetailsMain = ({singleData}) => {
                 </div>
                 <div className="row mt-40">
                     <div className="col-lg-4 lg-mb-15">
-                        <h3>About Project</h3>
+                        <h3>About {singleData?.title}</h3>
                     </div>
                     <div className="col-lg-8">
-                        <p>Graphic design is a creative and visual communication discipline that involves the art and practice of planning and projecting ideas and experiences with visual and textual content. It is a versatile field used in various media, such as print, digital, and multimedia, to convey messages, concepts, or information in an aesthetically pleasing and impactful manner.</p>
-                        <p>Graphic designers use various software tools like Adobe Photoshop, Illustrator, InDesign, and others to create their designs. The field continues to evolve with technological advancements and changing design trends, but the fundamental principles of visual communication and creativity remain at its core. Graphic design is integral to marketing,</p>
+                        <p>{singleData?.description}</p>
                     </div>
                 </div>
                 <div className="row mt-30 dark_image">
                     <div className="col-sm-4 sm-mb-25">
-                        <img className="img__full" src="../assets/img/portfolio/project-1.jpg" alt="portfolio" />
+                        <img className="img__full" src={singleData?.dropImage1.src} alt="portfolio" />
                     </div>
                     <div className="col-sm-4 sm-mb-25">
-                        <img className="img__full" src="../assets/img/portfolio/project-2.jpg" alt="portfolio" />
+                        <img className="img__full" src={singleData.dropImage2.src} alt="portfolio" />
                     </div>
                     <div className="col-sm-4">
-                        <img className="img__full" src="../assets/img/portfolio/project-3.jpg" alt="portfolio" />
+                        <img className="img__full" src={singleData.dropImage3.src} alt="portfolio" />
                     </div>
                 </div>
                 <div className="row mt-40">
                     <div className="col-lg-4 lg-mb-15">
-                        <h3>The Challenges</h3>
+                        <h3>The Challenge</h3>
                     </div>
                     <div className="col-lg-8">
-                        <p>Graphic design is a creative and visual communication discipline that involves the art and practice of planning and projecting ideas and experiences with visual and textual content. It is a versatile field used in various media, such as print, digital, and multimedia, to convey messages, concepts, or information in an aesthetically pleasing and impactful manner.</p>
-                        <p>Graphic designers use various software tools like Adobe Photoshop, Illustrator, InDesign, and others to create their designs. The field continues to evolve with technological advancements and changing design trends, but the fundamental principles of visual communication and creativity remain at its core. Graphic design is integral to marketing,</p>
+                        <p>{singleData?.challenges}</p>
                     </div>
                 </div>
                 <div className="row mt-20">
@@ -63,8 +57,7 @@ const PortfolioDetailsMain = ({singleData}) => {
                         <h3>The Solutions</h3>
                     </div>
                     <div className="col-lg-8">
-                        <p>Graphic design is a creative and visual communication discipline that involves the art and practice of planning and projecting ideas and experiences with visual and textual content. It is a versatile field used in various media, such as print, digital, and multimedia,</p>
-                        <p>Graphic designers use various software tools like Adobe Photoshop, Illustrator, InDesign, and others to create their designs. The field continues to evolve with ,</p>
+                        <p>{singleData?.solutions}</p>
                     </div>
                 </div>
             </div>

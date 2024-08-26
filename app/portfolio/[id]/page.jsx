@@ -7,6 +7,7 @@ const PortfolioDetail = () => {
     const params = useParams();
     const singleData = portfolioData?.find((portfolio) => portfolio.id === params.id);
     const router = useRouter();
+    
     if (!singleData) {
         return router.push("/404-error");
     }
