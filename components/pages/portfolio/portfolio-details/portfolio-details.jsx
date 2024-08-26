@@ -1,3 +1,4 @@
+import Image from 'next/image';
 import React from 'react';
 
 const PortfolioDetailsMain = ({ singleData }) => {
@@ -7,7 +8,7 @@ const PortfolioDetailsMain = ({ singleData }) => {
                 <div className="row">
                     <div className="col-xl-12">
                         <div className="portfolio__details-image dark_image">
-                            <img src={singleData.image.src} alt="portfolio" />
+                            <Image height={400} width={400} src={singleData.image.src} alt="portfolio" />
                             <div className="portfolio__details-meta">
                                 <div className="portfolio__details-meta-item">
                                     <span>Date :</span>

@@ -4,6 +4,10 @@ import image3 from "../../public/assets/img/portfolio/freyt-365.png";
 import image4 from "../../public/assets/img/portfolio/demystifying-money-2.png";
 import image5 from "../../public/assets/img/portfolio/hit.png";
 import image6 from "../../public/assets/img/portfolio/raysun-team.png";
+import image7 from "../../public/assets/img/portfolio/eduhub-1.png";
+import image8 from "../../public/assets/img/portfolio/eduhub-2.png";
+import image9 from "../../public/assets/img/portfolio/eduhub-3.png";
+
 
 const portfolioData = [
     {        
@@ -23,10 +27,18 @@ const portfolioData = [
     },
     {        
         id: 'raysun-edu-hub',
-        title: 'RaySun Edu Hub',
+        title: 'Raysun Edu Hub',
         subtitle: 'Study and Earn A Certificate on Understanding Money Management and Investment',
         image: image2,
+        dropImage1: image7,
+        dropImage2: image8,
+        dropImage3: image9,
         category: "education",
+        date: 'forever',
+        location: 'Global/Online',
+        description: `In the sprit of encouraging financial literacy and pushing for financial inclusion, we have developed a 4 course module to allow students and interested parties to study totally free via our Raysun EduHub platform. This module teaches you the fundamentals of money management and investment. The course is designed to be engaging and interactive, with a focus on practical skills that students can apply in their daily lives.`,
+        challenges: 'At Raysun Capital, we have identified a number of challenges that Zimbabweans face due to lack of knowledge and financial training. Learning to manage finances and to access funds to run a business is a concept that has failed to reach many Zimbabwean ears due to the expensive nature of financial literacy programs. ',
+        solutions: 'We believe that everyone should have access to the knowledge and skills they need to make informed decisions about their finances. We also believe that financial literacy is a key driver of economic growth and development. That is why we developed this module and have made it free to all interested parties'
     },
     {        
         id: 'freyt365',
