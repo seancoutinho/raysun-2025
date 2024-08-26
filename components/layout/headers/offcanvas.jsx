@@ -12,7 +12,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
                     <img src={logo2.src} alt="logo" />
                 </Link>
                 </div>
-                <p>Morbi et tellus imperdiet, aliquam nulla sed, dapibus erat. Aenean dapibus sem non purus venenatis vulputate. Donec accumsan eleifend blandit. Nullam auctor ligula</p>
+                <p>Providing innovative and quality financial services that foster growth in the lives and livelihoods of economically under-served groups.</p>
                 <div className="header__area-menubar-right-box-sidebar-popup-contact">
                     <h4 className="mb-30">Get In Touch</h4>
                     <div className="header__area-menubar-right-box-sidebar-popup-contact-item">
@@ -21,7 +21,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
                         </div>
                         <div className="header__area-menubar-right-box-sidebar-popup-contact-item-content">
                             <span>Call Now</span>
-                            <h6><a href="tel:+125(895)658568">+125 (895) 658 568</a></h6>
+                            <h6><a href="tel:+2638677008143">+263 8677008143</a></h6>
                         </div>
                     </div>
                     <div className="header__area-menubar-right-box-sidebar-popup-contact-item">
@@ -30,7 +30,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
                         </div>
                         <div className="header__area-menubar-right-box-sidebar-popup-contact-item-content">
                             <span>Quick Email</span>
-                            <h6><a href="mailto:info.help@gmail.com">info.help@gmail.com</a></h6>
+                            <h6><a href="mailto:info.help@gmail.com">info@raysuncapital.com</a></h6>
                         </div>
                     </div>
                     <div className="header__area-menubar-right-box-sidebar-popup-contact-item">
@@ -39,7 +39,7 @@ const SideBar = ({ isOpen, setIsOpen }) => {
                         </div>
                         <div className="header__area-menubar-right-box-sidebar-popup-contact-item-content">
                             <span>Office Address</span>
-                            <h6><a href="#">PV3M+X68 Welshpool United Kingdom</a></h6>
+                            <h6><a href="#">20 Ray Amm Road, Eastlea, Harare</a></h6>
                         </div>
                     </div>
                 </div>

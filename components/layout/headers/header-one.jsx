@@ -63,9 +63,6 @@ const HeaderOne = ({variant}) => {
                         </div>
                         <div className="header__area-menubar-right">
                             <div className="header__area-menubar-right-box">
-                                <div className="header__area-menubar-right-box-search">
-                                    <Search isOpen={search} setIsOpen={setSearch} />
-                                </div>
                                 <div className="header__area-menubar-right-sidebar">
                                     <div className="header__area-menubar-right-sidebar-popup-icon" onClick={() => setSidebarOpen(true)}>
                                         <i className="flaticon-menu"></i>                          
