@@ -9,7 +9,7 @@ import ScrollToTop from '../common/scroll/scroll-to-top';
 const RequestQuotePage = () => {
     return (
         <>
-            <SEO pageTitle="Apply Today Quote" />
+            <SEO pageTitle="Apply Today" />
             <HeaderOne />
             <BreadCrumb title="Apply for a Loan " innerTitle="Apply Today" />
             <RequestQuoteMain />
