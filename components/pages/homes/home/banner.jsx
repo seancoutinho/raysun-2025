@@ -2,8 +2,6 @@ import { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectFade, Autoplay, Pagination } from 'swiper/modules';
 import bannerBg1 from "../../../../public/assets/img/banner/banner-1.jpg";
-import bannerBg2 from "../../../../public/assets/img/banner/banner-2.jpg";
-import ModalVideo from "react-modal-video";
 import Link from "next/link";
 
 const slideControl = {
@@ -22,10 +20,6 @@ const slideControl = {
 };
 
 const BannerOne = () => {
-    const [openVideo, setOpenVideo] = useState(false);
-    const openVideoModal = () => {
-        setOpenVideo(true);
-    };
     return (
         <>
             <div className="banner__one">

@@ -10,7 +10,7 @@ const Experience = () => {
         title: 'We are a leading microfinance in Zimbabwe',
         des: 'We are a leading microfinance in Zimbabwe, offering a wide range of financial services to individuals and businesses. Our team of seasoned consultants collaborates closely with clients to deliver tailored solutions that meet their unique needs. We are committed to excellence and customer satisfaction, and we strive to empower our clients to achieve their financial goals.',
         btn_text: 'Apply for a loan',
-        btn_link: '/request-quote',
+        btn_link: '/apply-for-loan',
         progress1: '60',
         progress2: '85',
     }
@@ -46,7 +46,7 @@ const Experience = () => {
                                     </div>
                                     <div className="skill__area-item">
                                         <div className="skill__area-item-content">
-                                            <span className="text-two">USD Cash/Ecocash/Innbucks/Bank  transfer</span>
+                                            <span className="text-two">USD Cash/Ecocash/Innbucks/Bank Transfer</span>
                                         </div>
                                         <div className="skill__area-item-inner">
                                             {/* <SkillBarItem countUp={experienceContent?.progress2} /> */}
