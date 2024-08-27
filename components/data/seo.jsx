@@ -3,7 +3,7 @@ import { useEffect } from "react";
 
 const SEO = ({ pageTitle }) => {
   useEffect(() => {
-    document.title = pageTitle + " - Customized loans in Zimbabwe";
+    document.title = pageTitle + " - Affoarbale Loans in Zimbabwe";
   }, []);
 };
 
